@@ -14,7 +14,10 @@
         
     .Content{
         height: 100%;
-
+        padding-left: 7vw;
+        padding-right: 7vw;
     }
+
+    
 
 }

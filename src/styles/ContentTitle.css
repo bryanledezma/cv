@@ -12,3 +12,17 @@
 .Title__style{
     margin-top: 0px;
 }
+
+@media (max-width: 800px){
+
+    .Content__Title{
+        margin-left: -7vw;
+        margin-right: -7vw;
+        
+    }
+
+    .Title__style{
+        font-size: 35px;
+    }
+
+}
