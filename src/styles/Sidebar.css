@@ -1,0 +1,15 @@
+.Sidebar{
+     padding-left: 12%;
+     padding-right: 12%;
+     grid-area: side;
+     
+}
+@media (max-width: 800px){
+        
+    .Sidebar{
+        padding-top: 7.5%;
+        padding-bottom: 7.5%;
+        height: 100%;
+    }
+ 
+ }

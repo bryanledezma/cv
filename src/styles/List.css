@@ -1,0 +1,22 @@
+li{
+    font-size: 20px;
+    text-align: justify;
+    margin: 5px;
+}
+
+.ListContainer--columns{
+    column-count: 2;
+    text-align: center;
+}
+
+.listitem--columns{
+    text-align: center;
+}
+
+.ListContainer--side{
+    color: white;
+}
+
+.listitem--side{
+    color:white;
+}

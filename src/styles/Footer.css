@@ -1,0 +1,12 @@
+.footer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-area: footer;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+    box-sizing: border-box;
+}
+

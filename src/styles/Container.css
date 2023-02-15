@@ -1,0 +1,22 @@
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 12%;
+    grid-template-areas: "side content content"
+                         "footer footer footer";
+    gap:0%;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 2% 3% 0% 0%;
+    padding-left: 0px;
+}
+
+@media (max-width: 800px){
+        
+    .Container{
+        display: block;
+        margin: 0px;
+        justify-content: center;
+    }
+    
+
+}

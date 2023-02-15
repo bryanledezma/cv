@@ -1,0 +1,20 @@
+.Content{
+    background-color: white;
+    text-align: justify;
+    padding-left: 13vw;
+    padding-right: 13vw;
+    padding-bottom: 3vw;
+    grid-area: content;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0px 0px 15px 2px; 
+}
+
+@media (max-width: 800px){
+        
+    .Content{
+        height: 100%;
+
+    }
+
+}
