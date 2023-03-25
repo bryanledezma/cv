@@ -4,6 +4,10 @@ li{
     margin: 5px;
 }
 
+ul{
+    margin-bottom: 15px;
+}
+
 .ListContainer--columns{
     column-count: 2;
     text-align: center;

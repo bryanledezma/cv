@@ -8,6 +8,7 @@ import { TextElement } from './Components/TextElement';
 import { ContentTitle } from './Components/ContentTitle';
 import { List } from './Components/List';
 import { Footer } from './Components/Footer';
+import { ListLink } from './Components/ListLink';
 
 
 const aboutme = "Desarrollador web (Trainee-Jr) egresado de la carrera de Ingeniería en Tecnologías de la información en búsqueda de crecimiento profesional. Disfruto estar en constante aprendizaje aprovechando los recursos a mi alcance, así como actualizar los conocimientos ya aprendidos mientras conservo una actitud positiva al hacerlo."; 
@@ -25,7 +26,9 @@ const apt=["Empatía",
 const estadia = "Jurisdicción Sanitaria N° 1 (Ciudad Victoria, Tamps) \n Colaboración en el desarrollo de sistema web de registro con Laravel 8 para uso interno de la organización. Mayo 2021 - Agosto 2021";
 const curses =["Programación profesional desde cero. Udemy (2021)", 
   "Programación Web desde 0 con PHP 8, Mysql, Laravel y Symfony. Udemy (2022)", 
-  "Front End a profundidad con React.Js. Platzi (cursando actualmente)"]
+  "Front End a profundidad con React.Js. Platzi (cursando actualmente)"];
+const objects=[{desc:"To Do List", url:"https://bryanledezma.github.io/ToDoList/"}];
+
 
 function App() {
   return (
@@ -59,7 +62,9 @@ function App() {
         <TextElement title="ESTADÍA PROFESIONAL" pos="content" text={estadia}></TextElement>
         <TextElement title="CURSOS" pos="content"></TextElement>
         <List elements={curses}></List>
-
+        <ContentTitle>Portafolio</ContentTitle>
+        <TextElement title="ReactJS:" pos="content"></TextElement>
+        <ListLink objetos={objects}></ListLink>
       </Content>
 
       

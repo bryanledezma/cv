@@ -7,6 +7,7 @@
     margin-left: -13vw;
     margin-right: -13vw;
     margin-bottom: 4%;
+
 }
 
 .Title__style{
@@ -18,11 +19,11 @@
     .Content__Title{
         margin-left: -7vw;
         margin-right: -7vw;
-        
+        height: 10vh;
     }
 
     .Title__style{
-        font-size: 35px;
+        font-size: 32px;
     }
 
 }

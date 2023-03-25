@@ -15,6 +15,7 @@ function List(props) {
     }else{
     
     if(breakcolumn === false) {
+        
         return (  
             <div className="ListContainer">
                  <ul className="list">{
