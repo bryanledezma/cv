@@ -7,7 +7,7 @@ function ListLink(props) {
                  <ul className="list">{
                     objetos.map(object => 
                     <li key={object.desc}>
-                        <a href={object.url}>{object.desc}</a>
+                        <a href={object.url} target="_blank" rel="noopener noreferrer">{object.desc}</a>
                     </li>
                     )
                  }</ul>
